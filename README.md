@@ -7,11 +7,11 @@ Prof. Dmitry Kondrashov
 * Recreate Model 3 to show the fractal structure (solve numericaly), plot $x(i+1)$ vs $x(i)$
 
 ## Figure 1
-* Make the no memory function
-* Replicate Fig 1. `ts = np.linspace(0,400,4000)`  "no memory"
+* One bifurcation is now visible (the 1:1 to 2:2 transition) but nothing else is; not sure why
+* Something with the $n$ parameter? still not sure what that does -Austin
+## Figure 2
 * Make the memory function (lab 7) to plot $y(i)$ vs $x(i)$ creating cobweb plots
 * use ts = 400ms, 276ms, 264ms, 50ms
-## Figure 2
 ## Figure 3
 ## Figure 4
 ## Figure 5
