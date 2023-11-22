@@ -11,7 +11,7 @@ Prof. Dmitry Kondrashov
 * Something with the $n$ parameter? still not sure what that does -Austin
 ## Figure 2
 * Make the memory function (lab 7) to plot $y(i)$ vs $x(i)$ creating cobweb plots
-* use ts = 400ms, 276ms, 264ms, 50ms
+* use $t_s = 400, 276, 264, 50$ ms
 ## Figure 3
 ## Figure 4
 ## Figure 5
