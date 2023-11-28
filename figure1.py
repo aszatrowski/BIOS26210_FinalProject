@@ -22,6 +22,7 @@ lastn = 50 #include only last n from each run to filter out initial condition-de
 
 x = np.zeros((len(ts_seq), depth+1), dtype=np.float64) #preallocate the solution array. first row is the ts values, and the columns below it are all the solutions for that ts.
 x[:,0] = ts_seq # first row of values is ts
+x[:,1] = 200 # second row of values is initial conditions, [0, 270]
 
 
 def eqn1(x_i, ts, A, B1, B2, T1, T2):
